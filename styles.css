@@ -111,6 +111,16 @@ h1 {
   color: var(--muted);
   font-size: 0.9rem;
   letter-spacing: 0.03em;
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.footer-separator {
+  width: 1px;
+  height: 1.05rem;
+  background: rgba(111, 98, 88, 0.45);
+  border-radius: 999px;
 }
 
 @media (min-width: 700px) {
