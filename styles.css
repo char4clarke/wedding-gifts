@@ -28,10 +28,10 @@ body {
 }
 
 .page {
-  min-height: calc(100vh - 64px);
+  min-height: calc(100dvh - 52px);
   display: grid;
   place-items: center;
-  padding: 32px 20px 16px;
+  padding: 16px 16px 8px;
 }
 
 .card {
@@ -42,13 +42,13 @@ body {
   border-radius: 28px;
   box-shadow: 0 20px 60px rgba(84, 67, 56, 0.09);
   backdrop-filter: blur(10px);
-  padding: 32px 20px;
+  padding: 22px 18px;
 }
 
 .eyebrow {
-  margin: 0 0 10px;
+  margin: 0 0 8px;
   color: var(--muted);
-  font-size: 0.78rem;
+  font-size: 0.72rem;
   letter-spacing: 0.18em;
   text-transform: uppercase;
 }
@@ -56,35 +56,35 @@ body {
 h1 {
   margin: 0;
   font-family: "Cormorant Garamond", serif;
-  font-size: clamp(3rem, 9vw, 4.8rem);
+  font-size: clamp(2.4rem, 8vw, 4.8rem);
   font-weight: 600;
   line-height: 0.95;
 }
 
 .subtitle {
   max-width: 30rem;
-  margin: 18px auto 0;
+  margin: 12px auto 0;
   color: var(--muted);
-  font-size: 1rem;
-  line-height: 1.7;
+  font-size: 0.94rem;
+  line-height: 1.55;
 }
 
 .gift-links {
   display: grid;
-  gap: 16px;
-  margin-top: 32px;
+  gap: 12px;
+  margin-top: 22px;
 }
 
 .gift-button {
   display: block;
-  padding: 18px 20px;
+  padding: 15px 18px;
   border-radius: 999px;
   background: var(--button);
   border: 1px solid var(--button-border);
   box-shadow: var(--button-shadow);
   color: var(--text);
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 0.97rem;
   font-weight: 600;
   transition: transform 160ms ease, box-shadow 160ms ease, border-color 160ms ease;
 }
@@ -102,25 +102,25 @@ h1 {
 }
 
 .footer {
-  padding: 0 20px 28px;
+  padding: 0 16px 16px;
   text-align: center;
 }
 
 .footer p {
   margin: 0;
   color: var(--muted);
-  font-size: 0.82rem;
+  font-size: 0.76rem;
   letter-spacing: 0.03em;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 6px;
-  line-height: 1.5;
+  gap: 5px;
+  line-height: 1.35;
 }
 
 .footer-separator {
-  width: 44px;
+  width: 36px;
   height: 1px;
   background: rgba(111, 98, 88, 0.45);
   border-radius: 999px;
@@ -128,7 +128,8 @@ h1 {
 
 @media (min-width: 700px) {
   .page {
-    padding-top: 48px;
+    min-height: calc(100vh - 64px);
+    padding: 48px 20px 16px;
   }
 
   .card {
@@ -149,6 +150,7 @@ h1 {
     font-size: 0.9rem;
     flex-direction: row;
     gap: 12px;
+    line-height: 1.5;
   }
 
   .footer-separator {
