@@ -31,7 +31,7 @@ body {
   min-height: calc(100dvh - 52px);
   display: grid;
   place-items: center;
-  padding: 16px 16px 8px;
+  padding: 20px 18px 10px;
 }
 
 .card {
@@ -42,13 +42,13 @@ body {
   border-radius: 28px;
   box-shadow: 0 20px 60px rgba(84, 67, 56, 0.09);
   backdrop-filter: blur(10px);
-  padding: 22px 18px;
+  padding: 26px 20px;
 }
 
 .eyebrow {
-  margin: 0 0 8px;
+  margin: 0 0 9px;
   color: var(--muted);
-  font-size: 0.72rem;
+  font-size: 0.75rem;
   letter-spacing: 0.18em;
   text-transform: uppercase;
 }
@@ -56,35 +56,35 @@ body {
 h1 {
   margin: 0;
   font-family: "Cormorant Garamond", serif;
-  font-size: clamp(2.4rem, 8vw, 4.8rem);
+  font-size: clamp(2.7rem, 8.5vw, 4.8rem);
   font-weight: 600;
   line-height: 0.95;
 }
 
 .subtitle {
   max-width: 30rem;
-  margin: 12px auto 0;
+  margin: 14px auto 0;
   color: var(--muted);
-  font-size: 0.94rem;
-  line-height: 1.55;
+  font-size: 0.97rem;
+  line-height: 1.6;
 }
 
 .gift-links {
   display: grid;
-  gap: 12px;
-  margin-top: 22px;
+  gap: 14px;
+  margin-top: 26px;
 }
 
 .gift-button {
   display: block;
-  padding: 15px 18px;
+  padding: 16px 18px;
   border-radius: 999px;
   background: var(--button);
   border: 1px solid var(--button-border);
   box-shadow: var(--button-shadow);
   color: var(--text);
   text-decoration: none;
-  font-size: 0.97rem;
+  font-size: 1rem;
   font-weight: 600;
   transition: transform 160ms ease, box-shadow 160ms ease, border-color 160ms ease;
 }
@@ -102,25 +102,25 @@ h1 {
 }
 
 .footer {
-  padding: 0 16px 16px;
+  padding: 0 18px 18px;
   text-align: center;
 }
 
 .footer p {
   margin: 0;
   color: var(--muted);
-  font-size: 0.76rem;
+  font-size: 0.79rem;
   letter-spacing: 0.03em;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 5px;
-  line-height: 1.35;
+  line-height: 1.4;
 }
 
 .footer-separator {
-  width: 36px;
+  width: 40px;
   height: 1px;
   background: rgba(111, 98, 88, 0.45);
   border-radius: 999px;
